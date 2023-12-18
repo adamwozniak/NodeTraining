@@ -1,0 +1,11 @@
+{
+  "name": "2_generatingtextfiles",
+  "version": "1.0.0",
+  "description": "Your task this time will be generating email bodies based on template and recipients list provided.\r Both recipients.json and template.txt are placed in the /input folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

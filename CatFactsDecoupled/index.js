@@ -1,5 +1,8 @@
-// todo: implement catFacts = catService.getFacts()
+const catService = require('./services/catService');
+
 async function main(){
-    const catFacts = catService.getFacts();
+    const catFacts = await catService.getFacts();
     catFacts.forEach(fact => console.log(fact));
 }
+
+main();

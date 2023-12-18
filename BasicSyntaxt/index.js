@@ -1,11 +1,13 @@
-/* */
+
 // variables declarations
 var a = 'this is a var';
 let b = 'this is b let';
 const c = 'this is c const';
 
+
 console.log(a, b, c);
 console.log('=======================');
+
 
 // build in types
 const string = 'this is string';
@@ -17,9 +19,17 @@ console.log(anotherNumber, typeof anotherNumber);
 const array = ['Hello', 2]
 console.log(array, typeof array);
 const object = {
-    name: 'Node',
-    version: 16.4
+    'name': 'Node',
+    version: 16.4,
+    nestedObject: {
+        nestedVersion: 11.1
+    },
+    callback: function(parameters) {
+        console.log(parameters);
+    }
 }
+
+
 console.log(object, typeof array);
 const func = function () {
     // do something 
@@ -41,15 +51,20 @@ const modulo = 4 % 2;
 console.log('modulo = ', modulo);
 console.log('=======================');
 
+console.log(Math.pow(2,4));
+
+
 // for rest use Math lib :)
 
 // function definition
 
 function getGreeting(name) {
-    return `Hello ${name}`;
+    //return 'Hello ' + name +'!';
+    return `Hello ${name}!`;
 }
 
 console.log(getGreeting('Node'));
+
 
 // OR
 
@@ -57,8 +72,13 @@ const getGreetingArrow = (name) => {
     return `Hello ${name}`;
 }
 
+
+
+
 console.log(getGreetingArrow('Node'));
 console.log('=======================');
+
+
 
 // conditional operations
 
@@ -72,7 +92,9 @@ console.log('=======================');
 // not equal !=
 // strong not equal !==
 
-let age = 11;
+console.log(2==='2');
+
+const age = 18;
 
 if (age >= 18) {
     console.log('Here s your beer sir');

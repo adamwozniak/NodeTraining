@@ -7,4 +7,4 @@ catFactsPromise.then((data) => {
     catFactsJsonPromise.then((data) => {
         data.forEach(fact => console.log(fact.text));
     })
-});
+})

@@ -1,0 +1,11 @@
+{
+  "name": "1_helloworld",
+  "version": "1.0.0",
+  "description": "Your task will be to create hello world program and then fancy it up a little bit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
